@@ -10,7 +10,14 @@ export class HomeComponent {
   showBtn1 = {
     start: true,
     firstDiv: false,
-    next: false
+    naladka: false
   };
+  showBtn2 = {
+    start: true,
+    form:false,
+    document:false,
+    signature:false,
+    last:false
+  }
 
 }

@@ -10,6 +10,11 @@ import {InputTextModule} from "primeng/inputtext";
 import { HomeComponent } from './home/home.component';
 import { QrcodeComponent } from './qrcode/qrcode.component';
 import { StartComponent } from './start/start.component';
+import { NaladkaComponent } from './naladka/naladka.component';
+import { FormComponent } from './form/form.component';
+import { DocumentComponent } from './document/document.component';
+import { SignatureComponent } from './signature/signature.component';
+import { LastComponent } from './last/last.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { StartComponent } from './start/start.component';
     LoginComponent,
     HomeComponent,
     QrcodeComponent,
-    StartComponent
+    StartComponent,
+    NaladkaComponent,
+    FormComponent,
+    DocumentComponent,
+    SignatureComponent,
+    LastComponent
   ],
   imports: [
     BrowserModule,
